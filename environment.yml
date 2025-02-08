@@ -1,0 +1,13 @@
+name: lightrag
+channels:
+  - conda-forge
+  - microsoft
+dependencies:
+  - python=3.11
+  - pip
+  - ipywidgets
+  - faiss-gpu
+  - microsoft::playwright
+  - pip:
+      - crawl4ai
+      - lightrag-hku
