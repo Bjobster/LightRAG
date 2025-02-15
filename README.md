@@ -24,6 +24,8 @@ This project uses a dedicated Conda environment. We define an environment YAML f
 - `ipywidgets` for interactive inputs.
 - `playwright` needed for crawl4ai's asynchronous browser access
 
+NOTICE: faiss-gpu is also available as faiss-gpu-cu11, faiss-gpu-cu12 (and faiss-cpu if you don't have a gpu) - change the environment.yml to your needs!
+
 **Instructions:**
 1. **Create the Environment:**  
    Open your terminal and run:
