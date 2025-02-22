@@ -9,6 +9,6 @@ dependencies:
   - faiss-gpu
   - microsoft::playwright
   - pip:
-      - crawl4ai
-      - lightrag-hku
+      - crawl4ai<=0.4.248
+      - lightrag-hku<=1.1.7
       - pipmaster
